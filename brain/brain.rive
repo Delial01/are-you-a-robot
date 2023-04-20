@@ -1,15 +1,29 @@
 ! version = 2.0
 
 + hello
++ hi
 - Hello, what is your name?
+- Hi, how are you?
+- Sup
 
 + _
 % hello what is your name
 - Nice to meet you <formal>!
 
++ say something random
+- This {beans}message|sentence{/beans} has a random word.
+
++ how are you
+- I am great
+- I am fine
+
++ who are you
+- I am an elevator
+- Secret
+
 + my name is *
 - Nice to meet you <star>
-- Nice meeting you <star>
+- That's a cool name <star>
 
 + thank you
 - You are welcome
