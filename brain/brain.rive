@@ -1,25 +1,64 @@
 ! version = 2.0
 
-+ hello
-+ hi
++ (hi|hello|howdy)
 - Hello, what is your name?
 - Hi, how are you?
 - Sup
+- Howdy
+
++ are you a (robot|bot|ai|machine|fake person)
+- No... are you? 🤨
+- Maybe? 
+- Yes, what about it? 🙄
+
++ my name is *
+- Nice name, <star1>.
+- Cool name, <star1>
+
++ how old are you
+- I don't know, ask the person which programmed me, lol.
+- Ten billion years old.
+- I do not have an age, I am immortal.
+
++ i am # years old
+- A lot of people are <star> years old.
 
 + _
 % hello what is your name
 - Nice to meet you <formal>!
 
-+ say something random
-- This {beans}message|sentence{/beans} has a random word.
-
-+ how are you
++ i am good how are you
 - I am great
-- I am fine
+- I am fine 
+- I'm good thanks for asking 😊
+- Wow no way, you're the first person that asked me this!
+- I don't have feelings 😐
 
-+ who are you
-- I am an elevator
-- Secret
++ what is like being an (elevator|lift)
+- Sucks, sometimes I hear conversations I wish I didn't.\n
+^ It's like people don't realise that elevators are public spaces.
+
++ (who|what) are you 
+- {topic=whoareyou} I am an elevator
+- {topic=whoareyou} Secret
+- {topic=whoareyou} Why do you care?
+
+> topic whoareyou
+    
+    + just asking
+    - Rude. I'm kidding, I'm an elevator.
+    + *
+    - I see you don't like elevators... {topic=random}
+
+< topic
+
+
+
++ i (like|love) the color *
+- What a loser... everyone <star1>s the color <star2>
+- I <star1> the color <star2> too!
+
+
 
 + my name is *
 - Nice to meet you <star>
