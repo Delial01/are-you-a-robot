@@ -12,8 +12,8 @@
 - Yes, what about it? 🙄
 
 + my name is *
-- Nice name, <star1>.
-- Cool name, <star1>
+- Do you think I actually care what your name is <star>
+- That's a stupid name <star>
 
 + (how old are you|what is your age)
 - I don't know, ask the person which programmed me, lol.
@@ -59,11 +59,6 @@
 - What a loser... everyone <star1>s the color <star2>
 - I <star1> the color <star2> too!
 
-
-
-+ my name is *
-- Do you think I actually care what your name is <star>
-- That's a stupid name <star>
 
 + thank you
 - Whatever
