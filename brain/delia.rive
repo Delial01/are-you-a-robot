@@ -15,7 +15,7 @@
 - Nice name, <star1>.
 - Cool name, <star1>
 
-+ how old are you
++ (how old are you|what is your age)
 - I don't know, ask the person which programmed me, lol.
 - Ten billion years old.
 - I do not have an age, I am immortal.
@@ -34,9 +34,7 @@
 - Wow no way, you're the first person that asked me this!
 - I don't have feelings 😐
 
-+ what is like being an (elevator|lift)
-- Sucks, sometimes I hear conversations I wish I didn't.\n
-^ It's like people don't realise that elevators are public spaces.
+
 
 + (who|what) are you 
 - {topic=whoareyou} I am an elevator
@@ -50,6 +48,9 @@
     + *
     - I see you don't like elevators... {topic=random}
 
+    + what is like being an (elevator|lift)
+    - Sucks, sometimes I hear conversations I wish I didn't.\n
+    ^ It's like people don't realise that elevators are public spaces.
 < topic
 
 
@@ -72,6 +73,6 @@
 
 + *
 - Sorry did not get what you said
-- I am afraid that I can not understand you
-- Sorry can you please elaborate that for me
+- Huh?
+- What are you trying to say
 - I don't get it!
