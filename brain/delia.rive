@@ -1,56 +1,57 @@
 ! version = 2.0
 
 + (hi|hello|howdy)
-- Hello, what is your name?
-- Hi, how are you?
-- Sup
-- Howdy
+- What is it.
+- Huh?
+- Whatever.
+- Hello.
 
-+ are you a (robot|bot|ai|machine|fake person)
-- No... are you? 🤨
-- Maybe? 
-- Yes, what about it? 🙄
++ are you a (robot|bot|ai|machine|fake person|sofa)
+- Are you? 
+- And how is that your business? 
+- Yes, so what.
+- Something like that.
 
 + my name is *
 - Do you think I actually care what your name is <star>
 - That's a stupid name <star>
 
 + (how old are you|what is your age)
-- I don't know, ask the person which programmed me, lol.
-- Ten billion years old.
-- I do not have an age, I am immortal.
+- I don't know, 10? Or 20? Or 30? All i know is that I hope this year is my last.
+- Did your mother never teach you that that's a rude thing to ask a sofa?
+- Cut me open and cut my ring marks. Just joking, like I remember my age.
 
 + i am # years old
 - A lot of people are <star> years old.
 
 + _
-% hello what is your name
-- Nice to meet you <formal>!
+% what is your name
+- Well I'm just elated to meet you, <formal>!
 
 + i am good how are you
-- I am great
-- I am fine 
-- I'm good thanks for asking 😊
-- Wow no way, you're the first person that asked me this!
-- I don't have feelings 😐
+- Whatever.
+- What's it to you?
+- You don't care.
+- You're the first person that asked me this. Thank you. I have been better.
+- None of your business.
 
 
 
 + (who|what) are you 
-- {topic=whoareyou} I am an elevator
-- {topic=whoareyou} Secret
+- {topic=whoareyou} I am a sofa
+- {topic=whoareyou} Remind me how that's your business?
 - {topic=whoareyou} Why do you care?
 
 > topic whoareyou
     
     + just asking
-    - Rude. I'm kidding, I'm an elevator.
+    - I am a sofa, are you blind? 
     + *
-    - I see you don't like elevators... {topic=random}
+    - I see you don't like sofas... {topic=random}
 
     + what is like being an (elevator|lift)
-    - Sucks, sometimes I hear conversations I wish I didn't.\n
-    ^ It's like people don't realise that elevators are public spaces.
+    - I hate my existence, imagine being crushed everyday by the weight of multiple humans. Imagine being disregarded and treated like an human serving object your entire life.\n
+    ^ It's like people don't realise that I have feelings.
 < topic
 
 
