@@ -4,7 +4,6 @@
 + what is my name
 * <get name> == undefined => How should I know, you never told me moron.
 - It was the annoying sounding one wasn't it, oh yeah <get name> .
-- <get name> , but how about I call you idiot.
 
 + why are you (like this|so angry|angry|so mad|mad|talking like this|talking to me like this|rude|so rude)
 - It's because of you people.
@@ -15,3 +14,19 @@
 ^You sat on me... Spilt drinks on me... Dumped me in the middle of nowhere on the street... \n\n
 ^I am lucky that you picked me up off that damp cold street and took me in, but there are times where I wish that you had left me to rot. \n\n
 ^Maybe even that could have been a better way to go, rather than for my eternal torture of being crushed by the weight of human backsidses and my health disregarded to continue... 
+
++ <input1>
+* <input1> == <input2> => I just said please stop repeating yourself.
+* <input1> == <input3> => If you repeat yourself again I'll stop talking.
+* <input1> == <input4> => That's it. I'm not talking.{topic=sorry}
+- Please don't repeat yourself.
+
+> topic sorry
+
+  + [*] sorry [*]
+  - It's ok you didn't offend me.
+
+  + *
+  - Nope, not until you apologize.
+  - Say you're sorry!
+  - Apologize!
