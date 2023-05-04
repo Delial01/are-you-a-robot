@@ -6,7 +6,7 @@
 - Whatever.
 - Hello.
 
-+ are you a (robot|bot|ai|machine|fake person|sofa)
++ are you a (real|robot|bot|ai|machine|fake person|sofa)
 - Are you? 
 - And how is that your business? 
 - Yes, so what.
@@ -19,7 +19,7 @@
 + (how old are you|what is your age)
 - I don't know, 10? Or 20? Or 30? All i know is that I hope this year is my last.
 - Did your mother never teach you that that's a rude thing to ask a sofa?
-- Cut me open and cut my ring marks. Just joking, like I remember my age.
+- Cut me open and count my ring marks. Just joking, like I remember my age.
 
 + i am # years old
 - A lot of people are <star> years old.
