@@ -13,7 +13,7 @@
 - Something like that.
 
 + my name is *
-- Do you think I actually care what your name is <star>
+- <set name=<star>>Do you think I actually care what your name is <get name>.
 - That's a stupid name <star>
 
 + (how old are you|what is your age)

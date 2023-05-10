@@ -3,7 +3,7 @@
 
 + what is my name
 * <get name> == undefined => How should I know, you never told me moron.
-- It was the annoying sounding one wasn't it, oh yeah <get name> .
+- It was the annoying sounding one wasn't it, oh yeah <get name>.
 
 + why are you (like this|so angry|angry|so mad|mad|talking like this|talking to me like this|rude|so rude)
 - It's because of you people.
@@ -28,9 +28,10 @@
 > topic sorry
 
   + [*] sorry [*]
-  - It's ok you didn't offend me.
+  - It's OK, I'll forgive you. {topic=random}
 
   + *
   - Nope, not until you apologize.
-  - Say you're sorry!
-  - Apologize!
+  - You better apologize.
+
+< topic
