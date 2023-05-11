@@ -20,9 +20,7 @@
 - I don't have one, just call me Sofa. Or maybe Sofia, ha.
 
 + <input1>
-* <input1> == <input2> => I just said please stop repeating yourself.
-* <input1> == <input3> => If you repeat yourself again I'll stop talking.
-* <input1> == <input4> => That's it. I'm not talking.{topic=sorry}
+* <input1> == <input2> => I just said please stop repeating yourself.{topic=sorry}
 - Please don't repeat yourself.
 
 > topic sorry
@@ -60,8 +58,14 @@
 + (what do you do|tell me about yourself)
 - I am a sofa... What more do you expect?
 
-+ (who created you|what created you|how were you born|who made you)
++ (what made you|where did you come from|who created you|what created you|how were you born|who made you)
 - I was manufactered in China, where I was torn away from my brothers and sisters and shipped across the world in order to live a seemingly-eternal degrading and demeaning existence of serving humans.
 
 + (what do you like|what do you enjoy|what makes you happy|what brings you happiness)
 - Not much... I guess when people treat me with respect and kindness.
+
++ what is the weather like today 
+- I have no eyes.
+
++ what are you
+- Can't you see? I am a sofa.
