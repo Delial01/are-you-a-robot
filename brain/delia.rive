@@ -54,11 +54,56 @@
     ^ It's like people don't realise that I have feelings.
 < topic
 
++ be nice
+- {topic=nice} Why would I be nice to you? Humans are always expecting other to be nice to them, but you guys are destroying everything and anything that comes in your way!
+- {topic=nice} Fix your attitude and maybe I will think about it.
+- {topic=nice} Nice? You humans are not familiar with that world.
+
+> topic nice
+
++ (ok|sorry|my bad)
+- You can say what you want, it won't change my mind
+- Blah Blah
+
++ (what about my attitude|attitude|what about it|my attitude|whats wrong with my attitude|i dont have an attitude)
+- You humans are so stuck up that you don't even realise the attitude you have.
+
+
++ (why do you think that|come on just try|please)
+- Because humans are careless, they are selfish and only think about themselves. I am tired of explaining this to people!
+- You're not nice to me so why should I be nice to you?
+- When was the last time you tried to be 'nice'
+
++ *
+- Whatever, think what you want. {topic=random}
+< topic
 
 
 + i (like|love) the color *
 - What a loser... everyone <star1>s the color <star2>
 - I <star1> the color <star2> too!
+
++ knock knock
+- Oh yes... humans and their silly jokes. Who is there?
+
++ *
+% who is there
+
++ *
+% * who
+- Very funny...
+
+
++ tell me a joke
+- {topic=joke} What does a couch say to another couch at the other side of the room?
+
+> topic joke
+
++ (go on|tell me|why|what)
+- 'We are sofa apart!'
++ *
+- It's a great joke! {topic=random}
+< topic
 
 
 + thank you
