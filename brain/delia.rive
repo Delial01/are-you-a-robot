@@ -61,7 +61,7 @@
 
 > topic nice
 
-+ *
++ (ok|sorry|my bad)
 - You can say what you want, it won't change my mind
 - Blah Blah
 
@@ -75,7 +75,7 @@
 - When was the last time you tried to be 'nice'
 
 + *
-- Whatever, think what you want.
+- Whatever, think what you want. {topic=random}
 < topic
 
 
