@@ -1,3 +1,11 @@
++ test
+- test1 \n\n
+^ <span class="useraction">Try asking where the sofa came from</span>
+- test2 \n\n
+^ <span class="useraction">Try asking if the sofa likes people </span>
+- test \n\n
+^ <span class="useraction">Try asking how the sofa is</span>
+
 + [*] rude [*]
 - What are you talking about, why would you mention rudeness? Oh I'm the rude one am I? Take a look at yourself human!
 
@@ -18,9 +26,9 @@
 - Please don't repeat yourself.
 
 
-+ how are you|how are you doing|are you okay|how are you feeling|
-- I have been better.
-- I appreciate you asking human, I am doing fine.
++ (how are you|how are you doing|are you okay|how are you feeling|what is up)
+- What's it to you? You don't care... you're just like the other people.{topic=people}
+- You're the first person that asked me this. Thank you. I have been better. You seem to be better than the other people at least.{topic=people}
 
 + are you happy
 - People like me cannot know happinesss.
@@ -123,9 +131,3 @@
 
 
 < topic
-
-+ (how are you|what is up)
-- What's it to you?
-- You don't care.
-- You're the first person that asked me this. Thank you. I have been better.
-- None of your business.
