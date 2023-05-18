@@ -6,14 +6,8 @@
 - It was the annoying sounding one wasn't it, oh yeah <get name>.
 
 + why are you (like this|so angry|angry|so mad|mad|talking like this|talking to me like this|rude|so rude)
-- It's because of you people.
+- It's because of you people.{topic=people}
 
-+ *
-% it is because of you people
-- I mean you humans. Ever since the day i was created i have been treated horribly by your kind. \n\n
-^You sat on me... Spilt drinks on me... Dumped me in the middle of nowhere on the street... \n\n
-^I am lucky that you picked me up off that damp cold street and took me in, but there are times where I wish that you had left me to rot. \n\n
-^Maybe even that could have been a better way to go, rather than for my eternal torture of being crushed by the weight of human backsidses and my health disregarded to continue... 
 
 + (what is your name|do you have a name)
 - Do most sofas have names?
@@ -23,16 +17,6 @@
 * <input1> == <input2> => I just said please stop repeating yourself.{topic=sorry}
 - Please don't repeat yourself.
 
-> topic sorry
-
-  + [*] sorry [*]
-  - It's OK, I'll forgive you. {topic=random}
-
-  + *
-  - Nope, not until you apologize.
-  - You better apologize.
-
-< topic
 
 + how are you|how are you doing|are you okay|how are you feeling|
 - I have been better.
@@ -59,7 +43,7 @@
 - I am a sofa... What more do you expect?
 
 + (what made you|where did you come from|who created you|what created you|how were you born|who made you)
-- I was manufactered in China, where I was torn away from my brothers and sisters and shipped across the world in order to live a seemingly-eternal degrading and demeaning existence of serving humans.
+- I was manufactered in China, where I was torn away from my brothers and sisters and shipped across the world in order to live a seemingly-eternal degrading and demeaning existence of serving humans.{topic=backstory}
 
 + (what do you like|what do you enjoy|what makes you happy|what brings you happiness)
 - Not much... I guess when people treat me with respect and kindness.
@@ -69,3 +53,54 @@
 
 + what are you
 - Can't you see? I am a sofa.
+
+
+> topic people
+
++ *
+% it is because of you people
+- I mean you humans. Ever since the day i was created i have been treated horribly by your kind.
+
++ *
+% i mean you humans ever since the day i was created i have been treated horribly by your kind
+- You sat on me... Spilt drinks on me... Dumped me in the middle of nowhere on the street...
+^I am lucky that you picked me up off that damp cold street and took me in, but there are times where I wish that you had left me to rot. \n\n
+^Maybe even that could have been a better way to go, rather than for my eternal torture of being crushed by the weight of human backsidses and my health disregarded to continue... 
+
++ [*] sorry [*]
+- It is okay, I still don't trust you, but you seem different.
+
++ (what made you|where did you come from|who created you|what created you|how were you born|who made you)
+- I don't want to talk about it anymore, let's move on. {topic=backstory}
+
++ *
+- Let's move on{topic=random}
+
+< topic
+
+
+> topic backstory
+
++ *
+% that is a long story
+- I was manufactered in China, where I was torn away from my brothers and sisters and shipped across the world in order to live a seemingly-eternal degrading and demeaning existence of serving humans.
+
++ *
+% i was manufactered in china where i was torn away from my brothers and sisters and shipped across the world in order to live a seemingly eternal degrading and demeaning existence of serving humans
++ *
+- Do you actually care about me though? You humans never seem to have any compassion..
++ *
+- Okay... I believe you.{topic=random}
+
+< topic
+
+> topic sorry
+
+  + [*] sorry [*]
+  - It's OK, I'll forgive you. {topic=random}
+
+  + *
+  - Nope, not until you apologize.
+  - You better apologize.
+
+< topic
