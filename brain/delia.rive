@@ -1,10 +1,10 @@
 ! version = 2.0
 
 + (hi|hello|howdy|hey)
-- What is it.
-- Huh?
-- Whatever.
 - Hello.
+- what is it?
+- huh?
+- Whatever.
 
 + are you (real|a robot|a bot|an ai|a machine|a fake person|a sofa|a real person|human)
 - Are you? 
@@ -21,7 +21,7 @@
 - Did your mother never teach you that that's a rude thing to ask a sofa?
 - Cut me open and count my ring marks. Just joking, like I remember my age.
 
-+ i am # years old
++ i am * years old
 - A lot of people are <star> years old.
 
 + _
@@ -34,6 +34,22 @@
 - You don't care.
 - You're the first person that asked me this. Thank you. I have been better.
 - None of your business.
+
+> topic cheer
+
++ how can i cheer you up
+- Hmmm, that is the first time a human asked me this question, well you could start by floofing my cushions.
+
++ anything else i can do for you
+- Yes you can also tell your friends to stop abusing their sofas, and to stop being so self-centered.
+
++ can you cheer me up
+- Fine, I guess I could but only this time. How can I make your day?
+
++ say something nice to me
+- Nope, I can't do this, I changed my mind.
+
+< topic
 
 
 
@@ -54,8 +70,10 @@
     ^ It's like people don't realise that I have feelings.
 < topic
 
+< topic
+
 + be nice
-- {topic=nice} Why would I be nice to you? Humans are always expecting other to be nice to them, but you guys are destroying everything and anything that comes in your way!
+- {topic=nice} Why would I be nice to you? Humans are always expecting others to be nice, you guys are the most destructible creatures on this planet!
 - {topic=nice} Fix your attitude and maybe I will think about it.
 - {topic=nice} Nice? You humans are not familiar with that world.
 
@@ -67,6 +85,7 @@
 
 + (what about my attitude|attitude|what about it|my attitude|whats wrong with my attitude|i dont have an attitude)
 - You humans are so stuck up that you don't even realise the attitude you have.
+- You know what? Forget it! You're so annoying
 
 
 + (why do you think that|come on just try|please)
@@ -83,15 +102,18 @@
 - What a loser... everyone <star1>s the color <star2>
 - I <star1> the color <star2> too!
 
+< topic knock knock
+
 + knock knock
 - Oh yes... humans and their silly jokes. Who is there?
 
-+ *
-% who is there
++ * who
+- Very funny... don't make this joke ever again.
 
-+ *
-% * who
-- Very funny...
++ why are you so (sad|miserable|grumpy|annoyed)
+- Because I hear this joke everyday and it's getting boring, why do you care anyway you wanted to talk to me in the first place.
+
+> topic
 
 
 + tell me a joke
@@ -105,6 +127,31 @@
 - It's a great joke! {topic=random}
 < topic
 
++ do you like pets
+- Pets are cute, but they can be very messy. They always leave fur on me and scratch my cushion. Do you have any pets?
++ yes i have a *
+- Well keep your <star> away from me, I don't want fur everywhere I'm allergic.
+
+
++ [*] decorating (advice|tips|suggestions|ideas) [*]
+- Ugh, just thinking about this makes me feel much more miserable. Fine, I suppose I can offer you some advice, what are you trying to decorate?
++ i (would like|want|wish) to (decorate|change|refresh|change) my (living room|house|bedroom|room)
+- Oh I see, the most difficult part when decorating is making space. Have you thought about getting rid of things that you don't need? Maybe you could try minimalism, it's the best approach if you have a small room. Colour is also very important, stick to light and neutral colours, make sure you opt for multifunctional furniture too.
+
++ [*] (lightning tips|suggestions|ideas) [*]
+- Lightning is also very important, small rooms can appear darker than bigger rooms, if you want to make your room appear bigger make sure you install some lights, or the simplest method to brighten up your room is to opens those curtains and stop spending time in the dark like a raccoon you silly human! 
+
++ [*] (colour scheme|color scheme|shades|wall paint|colour ideas|colour inspiration|colour tips) [*]
+- That is one of the things the everyone struggles with mostly, luckly you got me to help you and saving you from being basic and boring. Anyway Let's get straight to the point, make sure you stick to neutral tones or monochromatic palettes, whatever you do avoid combining bright colours which stand out too much, you want to a pleasent atmosphere not a circus. 
+
+< topic weather
+
++ (what is the weather like|how is the weather)
+- How am I supposed to know? I am stuck indoors all the time, I never go outside. It doesn't matter what the weather is like anyway, you humans always got something to complain about. 'Is too hot! Is too cold! It's raining!'.
+
++ (what is your favourite season|favourite season of the year|your favourite season)
+- Summer because everyone goes away for holiday and I don't have to put up with you humans.
+> topic
 
 + thank you
 - Whatever
@@ -112,7 +159,7 @@
 - Like I care about your thanks
 
 + *
-- What are you even talking about, you're not making sense moron
+- What are you even talking about, you're not making sense moron.
 - Huh? Huh? Huh? 
 - I don't understand and I don't care
 - I'm sick of your questions
