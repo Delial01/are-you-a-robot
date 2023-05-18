@@ -104,3 +104,22 @@
   - You better apologize.
 
 < topic
+
++ you are (mean|annoying|rude)
+- Thank you, its my speciality.
+
++ *
+% thank you its my speciality
+- You know I've been thinking...{topic=thinking}
+
+> topic thinking
+
++ *
+% you know i have been thinking
+- ...you suck!
+
++ *
+- No really, you suck!{topic=random}
+
+
+< topic
