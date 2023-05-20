@@ -37,17 +37,17 @@
 
 > topic cheer
 
-+ how can i cheer you up
-- Hmmm, that is the first time a human asked me this question, well you could start by floofing my cushions.
+    + how can i cheer you up
+    - Hmmm, that is the first time a human asked me this question, well you could start by floofing my cushions.
 
-+ anything else i can do for you
-- Yes you can also tell your friends to stop abusing their sofas, and to stop being so self-centered.
+    + anything else i can do for you
+    - Yes you can also tell your friends to stop abusing their sofas, and to stop being so self-centered.
 
-+ can you cheer me up
-- Fine, I guess I could but only this time. How can I make your day?
+    + can you cheer me up
+    - Fine, I guess I could but only this time. How can I make your day?
 
-+ say something nice to me
-- Nope, I can't do this, I changed my mind.
+    + say something nice to me
+    - Nope, I can't do this, I changed my mind.
 
 < topic
 
@@ -72,46 +72,46 @@
 
 < topic
 
-+ be nice
-- {topic=nice} Why would I be nice to you? Humans are always expecting others to be nice, you guys are the most destructible creatures on this planet!
-- {topic=nice} Fix your attitude and maybe I will think about it.
-- {topic=nice} Nice? You humans are not familiar with that world.
+    + be nice
+    - {topic=nice} Why would I be nice to you? Humans are always expecting others to be nice, you guys are the most destructible creatures on this planet!
+    - {topic=nice} Fix your attitude and maybe I will think about it.
+    - {topic=nice} Nice? You humans are not familiar with that world.
 
 > topic nice
 
-+ (ok|sorry|my bad)
-- You can say what you want, it won't change my mind
-- Blah Blah
+    + (ok|sorry|my bad)
+    - You can say what you want, it won't change my mind
+    - Blah Blah
 
-+ (what about my attitude|attitude|what about it|my attitude|whats wrong with my attitude|i dont have an attitude)
-- You humans are so stuck up that you don't even realise the attitude you have.
-- You know what? Forget it! You're so annoying
-
-
-+ (why do you think that|come on just try|please)
-- Because humans are careless, they are selfish and only think about themselves. I am tired of explaining this to people!
-- You're not nice to me so why should I be nice to you?
-- When was the last time you tried to be 'nice'
-
-+ *
-- Whatever, think what you want. {topic=random}
-< topic
+    + (what about my attitude|attitude|what about it|my attitude|whats wrong with my attitude|i dont have an attitude)
+    - You humans are so stuck up that you don't even realise the attitude you have.
+    - You know what? Forget it! You're so annoying
 
 
-+ i (like|love) the color *
-- What a loser... everyone <star1>s the color <star2>
-- I <star1> the color <star2> too!
+    + (why do you think that|come on just try|please)
+    - Because humans are careless, they are selfish and only think about themselves. I am tired of explaining this to people!
+    - You're not nice to me so why should I be nice to you?
+    - When was the last time you tried to be 'nice'
 
-< topic knock knock
+    + *
+    - Whatever, think what you want. {topic=random}
+    < topic
 
-+ knock knock
-- Oh yes... humans and their silly jokes. Who is there?
 
-+ * who
-- Very funny... don't make this joke ever again.
+    + i (like|love) the color *
+    - What a loser... everyone <star1>s the color <star2>
+    - I <star1> the color <star2> too!
 
-+ why are you so (sad|miserable|grumpy|annoyed)
-- Because I hear this joke everyday and it's getting boring, why do you care anyway you wanted to talk to me in the first place.
+    < topic knock knock
+
+    + knock knock
+    - Oh yes... humans and their silly jokes. Who is there?
+
+    + * who
+    - Very funny... don't make this joke ever again.
+
+    + why are you so (sad|miserable|grumpy|annoyed)
+    - Because I hear this joke everyday and it's getting boring, why do you care anyway you wanted to talk to me in the first place.
 
 > topic
 
@@ -121,10 +121,11 @@
 
 > topic joke
 
-+ (go on|tell me|why|what)
-- 'We are sofa apart!'
-+ *
-- It's a great joke! {topic=random}
+    + (go on|tell me|why|what)
+    - 'We are sofa apart!'
+    + *
+    - It's a great joke! {topic=random}
+    
 < topic
 
 + do you like pets
@@ -142,16 +143,17 @@
 - Lightning is also very important, small rooms can appear darker than bigger rooms, if you want to make your room appear bigger make sure you install some lights, or the simplest method to brighten up your room is to opens those curtains and stop spending time in the dark like a raccoon you silly human! 
 
 + [*] (colour scheme|color scheme|shades|wall paint|colour ideas|colour inspiration|colour tips) [*]
-- That is one of the things the everyone struggles with mostly, luckly you got me to help you and saving you from being basic and boring. Anyway Let's get straight to the point, make sure you stick to neutral tones or monochromatic palettes, whatever you do avoid combining bright colours which stand out too much, you want to a pleasent atmosphere not a circus. 
+- That is one of the things the everyone struggles with most of the time, luckly you got me to help you and save you from being basic and boring. Anyway Let's get straight to the point, make sure you stick to neutral tones or monochromatic palettes, whatever you do avoid combining bright colours which stand out too much, you want to make a pleasant atmosphere not a circus. 
 
-< topic weather
+> topic weather
 
-+ (what is the weather like|how is the weather)
-- How am I supposed to know? I am stuck indoors all the time, I never go outside. It doesn't matter what the weather is like anyway, you humans always got something to complain about. 'Is too hot! Is too cold! It's raining!'.
+    + (what is the weather like|how is the weather)
+    - How am I supposed to know? I am stuck indoors all the time, I never go outside. It doesn't matter what the weather is like anyway, you humans always got something to complain about. 'Is too hot! Is too cold! It's raining!'.
 
-+ (what is your favourite season|favourite season of the year|your favourite season)
-- Summer because everyone goes away for holiday and I don't have to put up with you humans.
-> topic
+    + (what is your favourite season|favourite season of the year|your favourite season)
+    - Summer because everyone goes away for holiday and I don't have to put up with you humans.
+
+< topic
 
 + thank you
 - Whatever

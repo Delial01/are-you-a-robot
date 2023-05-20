@@ -18,11 +18,11 @@ form.addEventListener("submit", (e) => {
 });
 
 function botReply(message) {
-  message_container.innerHTML += `<div class="bot">${message}</div>`;
+  message_container.innerHTML += `<div class="bot animate__animated animate__slideInLeft">${message}</div>`;
 }
 
 function selfReply(message) {
-  message_container.innerHTML += `<div class="self">${message}</div>`;
+  message_container.innerHTML += `<div class="self animate__animated animate__slideInRight">${message}</div>`;
 
   bot
     .reply("local-user", message)

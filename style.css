@@ -1,14 +1,14 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue:wght@400;800&display=swap");
 
 * {
-  font-family: "Inter", Arial;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 12pt;
   margin: 0;
   box-sizing: border-box;
 }
 
 body {
-  background: #efdd94;
+  background: linear-gradient(to left, #242423 60%, #cecdca 40%);
 }
 
 .title {
@@ -18,24 +18,33 @@ body {
   justify-content: center;
 }
 
-.title h1 {
-  letter-spacing: 0.75px;
-  color: #74562d;
+h1 {
+  font-family: "Bebas Neue";
+  letter-spacing: 10px;
+  color: #cecdca;
+  text-transform: uppercase;
+  font-size: 100pt;
+  font-weight: 200;
 }
 
 .wrapper {
   height: 95vh;
+  margin-top: 5vh;
 }
 
 .chat {
-  background: white;
-  box-shadow: 10px 10px 0px #74562d;
+  background: #242423;
+  box-shadow: 0px 0px 0px #242423;
   overflow: scroll;
   height: 100%;
   display: flex;
   flex-direction: column;
   padding: 20px 20px 0px 20px;
   border-radius: 10px;
+}
+
+.sofa {
+  margin: top 10vh;
 }
 
 .messages {
@@ -63,7 +72,7 @@ body {
 .messages .bot {
   text-align: left;
   margin-right: auto;
-  background: black;
+  background: #555555;
   color: white;
 }
 
@@ -71,9 +80,8 @@ body {
   text-align: right;
   margin-right: 20px;
   margin-left: auto;
-  background: white;
-  border: 1px solid #74562d;
-  color: #74562d;
+  background: #cecdca;
+  color: #000000;
 }
 
 .actions {
@@ -81,8 +89,14 @@ body {
   width: 100%;
   position: sticky;
   bottom: -1px;
-  padding: 10px 0px 20px;
+  padding: 10px 0px;
   background: white;
+  margin-bottom: 5px;
+  border-radius: 10px;
+}
+
+input {
+  border: none;
 }
 
 .actions input {
@@ -90,14 +104,6 @@ body {
   display: block;
   width: 100%;
   outline: 0;
-  border-top: 0px;
-  border-right: 0px;
-  border-bottom: 2px solid black;
-  border-left: 0px;
-}
-
-input:focus {
-  border-bottom: 2px solid #74562d;
 }
 
 .useraction {
@@ -115,11 +121,36 @@ input:focus {
   }
 }
 
-@media all and (min-width: 1280px) {
-  .wrapper {
-    width: 27.5vw;
-  }
+@media (min-width: 1280px) {
   .title {
     height: 7.5vh;
+    margin-left: 5vw;
+    padding-bottom: 10vh;
   }
+
+  .wrapper {
+    margin-top: 5vh;
+    width: 100%;
+    margin-left: 5.5vw;
+    /* margin-top: 0; */
+    /* margin-bottom: 2.5vh; */
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .chat {
+    width: 27.5vw;
+  }
+
+  .sofa {
+    margin-top: 25vh;
+    margin-left: 2.0vw;
+    width: 75vw;
+  }
+
+  .sofa img {}
+
 }
