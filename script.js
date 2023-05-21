@@ -17,12 +17,27 @@ form.addEventListener("submit", (e) => {
   input_box.focus();
 });
 
+let messageCount = 0;
+
 function botReply(message) {
-  message_container.innerHTML += `<div class="bot animate__animated animate__slideInLeft">${message}</div>`;
+  const messageId = `bot-message-${messageCount}`;
+  const messageElement = document.createElement("div");
+  messageElement.id = messageId;
+  messageElement.className = "bot animate__animated animate__slideInLeft";
+  messageElement.textContent = message;
+  message_container.appendChild(messageElement);
+
+  messageCount++;
+  message_container.lastElementChild.scrollIntoView();
 }
 
 function selfReply(message) {
-  message_container.innerHTML += `<div class="self animate__animated animate__slideInRight">${message}</div>`;
+  const messageId = `self-message-${messageCount}`;
+  const messageElement = document.createElement("div");
+  messageElement.id = messageId;
+  messageElement.className = "self animate__animated animate__slideInRight";
+  messageElement.textContent = message;
+  message_container.appendChild(messageElement);
 
   bot
     .reply("local-user", message)
@@ -32,10 +47,13 @@ function selfReply(message) {
     .then(function () {
       message_container.lastElementChild.scrollIntoView();
     });
+
+  messageCount++;
 }
 
 function botReady() {
   bot.sortReplies();
+  message_container.innerHTML = ""; // Clear previous messages
 }
 
 function botNotReady(err) {
