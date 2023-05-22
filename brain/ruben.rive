@@ -1,12 +1,8 @@
 + test
-- test1 \n\n
-^ <span class="useraction">Try asking where the sofa came from</span>
-- test2 \n\n
-^ <span class="useraction">Try asking if the sofa likes people </span>
-- test \n\n
-^ <span class="useraction">Try asking how the sofa is</span>
-- test3 \n\n
-^ <span class="useraction">Try asking the sofa's name</span>
+- test1 \n\n <span class="useraction">Try asking where the sofa came from</span>
+- test2 \n\n <span class="useraction">Try asking if the sofa likes people</span>
+- test \n\n <span class="useraction">Try asking how the sofa is</span>
+- test3 \n\n <span class="useraction">Try asking the sofa's name</span>
 
 + [*] rude [*]
 - What are you talking about, why would you mention rudeness? Oh I'm the rude one am I? Take a look at yourself human!
