@@ -24,7 +24,7 @@ function botReply(message) {
   const messageElement = document.createElement("div");
   messageElement.id = messageId;
   messageElement.className = "bot animate__animated animate__slideInLeft";
-  messageElement.textContent = message;
+  messageElement.innerHTML += message;
   message_container.appendChild(messageElement);
 
   messageCount++;
@@ -36,7 +36,7 @@ function selfReply(message) {
   const messageElement = document.createElement("div");
   messageElement.id = messageId;
   messageElement.className = "self animate__animated animate__slideInRight";
-  messageElement.textContent = message;
+  messageElement.innerHTML += message;
   message_container.appendChild(messageElement);
 
   bot
