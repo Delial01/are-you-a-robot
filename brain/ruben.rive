@@ -5,6 +5,8 @@
 ^ <span class="useraction">Try asking if the sofa likes people </span>
 - test \n\n
 ^ <span class="useraction">Try asking how the sofa is</span>
+- test3 \n\n
+^ <span class="useraction">Try asking the sofa's name</span>
 
 + [*] rude [*]
 - What are you talking about, why would you mention rudeness? Oh I'm the rude one am I? Take a look at yourself human!
@@ -18,8 +20,8 @@
 
 
 + (what is your name|do you have a name)
-- Do most sofas have names?
-- I don't have one, just call me Sofa. Or maybe Sofia, ha.
+- Do most sofas have names? You people just seem to use us and throw us away..{topic=sustainability}
+- I don't have one, just call me Sofa. Or maybe Sofia, ha. But why does that matter, you people just seem to use us and throw us away..{topic=sustainability}
 
 + <input1>
 * <input1> == <input2> => I just said please stop repeating yourself.{topic=sorry}
@@ -142,3 +144,22 @@
 + sorry
 - It's OK, I'll forgive you.
 
+> topic sustainability
+
++ *
+% do most sofas have names you people just seem to use us and throw us away
+- Yeah that's right, you just use things like me for you own satisfaction, you sit on me and treat me horribly then throw me away and buy a new me.
+
++ *
+% i do not have one just call me sofa or maybe sofia ha but why does that matter you people just seem to use us and throw us away
+- Yeah that's right, you just use things like me for you own satisfaction, you sit on me and treat me horribly then throw me away and buy a new me.
+
++ *
+% yeah thats right you just use things like me for you own satisfaction you sit on me and treat me horribly then throw me away and buy a new me
+- That's how you use pretty much everything in your life isn't it, you buy brand new clothes or whatever is the current trend, just to throw them away, ending up in a landfill along with me.
+
++ *
+% thats how you use pretty much everything in your life is not it you buy brand new clothes or whatever is the current trend just to throw them away ending up in a landfill along with me
+- I don't even know if I want your apology, your word doesn't mean much to me... I don't know if I can trust you. It's whatever, I don't want to talk about it anymore.{topic=random}
+
+< topic
